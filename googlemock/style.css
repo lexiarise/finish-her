@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+#navbar {
+  display: flex;
+  justify-content: right;
+}
+
+#navbar li {
+  display: inline-block;
+  padding: 8px;
+}
+
+li.navlinks {
+  color: #404040;
+}
+
+#sign_in {
+  background: #4887ef;
+  padding; 7px 15px;
+  font-weight: bold;
+  margin-right: 25px;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.navlinks a:hover {
+  text-decoration: underline;
+}
+
+#sign_in a:hover {
+  text-decoration: underline;
+}
+
+
+
+/*above is for the NAV Bar at the top of webpage*/
