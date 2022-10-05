@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-size: 85%;
 }
 
 header {
@@ -54,12 +55,26 @@ li.navlinks a:hover {
   justify-content: center;
   margin: 0 auto;
   clear: both;
-  padding-top: 90px;
-  padding-bottom: 20px;
+  padding-top: 120px;
+  padding-bottom: 5px;
+}
+
+img {
+  width: 475px;
+  height: auto;
 }
   /*above is for the Google img center page*/
 
-#form {
+form {
   display: flex;
   justify-content: center;
 }
+
+#formSearch {
+  width: 530px;
+  line-height: 12px;
+  padding: 10px 10px;
+  border-width: 1px;
+}
+
+/*above is for the search bar*/
