@@ -76,5 +76,43 @@ form {
   padding: 10px 10px;
   border-width: 1px;
 }
+  /*above is for the search bar*/
 
-/*above is for the search bar*/
+.buttons {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+  /*above is for buttons*/
+
+footer {
+  background: #f2f2f2;
+  border-top: solid 2px #e4e4e4;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+footer ul li {
+  display: inline;
+  color: #666666;
+  padding: 13px;
+}
+
+.footerLeft {
+  text-align: left;
+  float: left;
+}
+
+.footerRight {
+  text-align: right;
+  float: right;
+}
+
+footer ul a:hover {
+  text-decoration: underline;
+}
+/*above is for footer on webpage*/
+
+/*END BASIC CSS*/
