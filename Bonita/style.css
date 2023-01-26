@@ -30,7 +30,7 @@ div {
   background-color: transparent;
 }
 
-p {
+div.p {
   display: flex;
   justify-content: center;
 }
