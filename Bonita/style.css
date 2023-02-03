@@ -17,20 +17,54 @@ header {
   letter-spacing: .2rem;
 }
 
-h1 {
-  display: flex;
-  justify-content: center;
-  letter-spacing: .2rem;
-}
 
-div {
-  font-size: 1.5em;
-  color: #fe7f88;
+div.welcome {
+  display: block;
+  text-align: center;
   background-image: url(imagesbonita/Most-Beautiful-House-in-the-World.jpg);
   background-color: transparent;
 }
 
-div.p {
+div.aboutus {
+  display: block;
+  text-align: center;
+}
+
+div.services {
+  display: block;
+}
+
+div.meettheteam {
+  display: block;
+  text-align: center;
+}
+
+.col {
+  border: 2px solid rgba(105, 12, 41, 0.92);
+  border-radius: 2px;
+  margin: 2px;
+}
+
+.detailp {
+  text-align: left;
+}
+
+div.visionstatement {
+  display: block;
+}
+
+div.contactus {
+  display: block;
+  text-align: center;
+}
+
+footer {
   display: flex;
   justify-content: center;
+  width: 100%;
+  padding: 1px;
+  background-color: rgba(105, 12, 41, 0.92);
+  margin: 0;
+  color: #FFCC80;
+  letter-spacing: .2rem;
 }
