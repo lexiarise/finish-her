@@ -1,76 +1,96 @@
 body {
-  font-family: Helvetica Neue;
-  font-size: 85%;
-  background-color: white;
+  font-family: Merriweather, serif;
+  text-align: center;
+  margin: 0;
+  background-color: #FFF2F2;
 }
 
 hr {
   border-style: none;
   border-top-style: dotted;
-  width: 1%;
+  width: 2%;
+  border-color: #FFF2F2;
   border-width: 5px;
-  border-color: white;
 }
 
-
-header {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  padding: 5px;
-  background-color: rgba(105, 12, 41, 0.92);
-  margin: 0;
-  color: #FFCC80;
-  letter-spacing: .2rem;
+h1 {
+  color:  #FFDB89;
+  font-size: 4rem;
+  font-family: Sacramento, cursive;
+  font-weight: normal;
+  margin: 0 auto 0 auto;
 }
 
 h2 {
-  display: flex;
-  justify-content: center;
+  color: #40514E;
+  font-weight: normal;
+  font-family: Montserrat, sans-serif;
+  font-size: 2.5rem;
   text-shadow: 2px 2px rgba(251, 233, 231, 0.56);
   letter-spacing: .2rem;
 }
 
-div.welcome {
-  display: block;
-  text-align: center;
-  border: 2px solid rgba(105, 12, 41, 0.92);
-  border-radius: 2px;
-  margin: 8px;
+h3 {
+  color: #40514E;
+  font-family: Montserrat, sans-serif;
+}
+
+p {
+  color: #40514E;
+  font-size: 1.3rem;
+  letter-spacing: .025rem;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 5px;
+  background-color: rgba(105, 12, 41, 0.92);
+  margin: 0;
+}
+
+.logoheader {
+  float: left;
+  width: 4%;
+}
+
+.welcome {
+  position: relative;
+  margin: 0;
   /* background-image: url(imagesbonita/Most-Beautiful-House-in-the-World.jpg);
   background-color: transparent;
   background-color: rgba(251, 233, 231, 0.56);*/
 }
 
-div.aboutus {
-  display: block;
-  text-align: center;
-  border: 2px solid rgba(105, 12, 41, 0.92);
-  border-radius: 2px;
-  margin: 8px;
+.aboutus {
+  position: relative;
+  height: 18.75rem;
+  width: 43.75rem;
+  margin: auto;
+  border: 5px solid rgba(105, 12, 41, 0.92);
+  border-radius: 15px;
   box-shadow: 10px 10px 5px grey;
+  background-color: rgba(251, 233, 231, 0.56);
 }
 
-div.services {
-  display: block;
-  text-align: center;
+.services {
+  position: relative;
+  margin: auto;
+  padding: 20px;
 }
 
 .row {
-display: flex;
-justify-content: center;
 padding: inherit;
 }
 
 .col-sm-4 {
-  display: block;
   border-radius: 2px;
   margin: 8px;
 }
 
-div.meettheteam {
-  display: block;
-  text-align: center;
+.meettheteam {
+  position: relative;
+  padding-top: 100px;
 }
 
 .col {
@@ -85,26 +105,24 @@ div.meettheteam {
   text-align: left;
 }
 
-mtt:hover {
-  background-color: gold;
+.visionstatement {
+  position: relative;
 }
 
-div.visionstatement {
-  display: block;
-}
-
-div.contactus {
-  display: block;
-  text-align: center;
+.contactus {
+  position: relative;
 }
 
 footer {
-  display: flex;
-  justify-content: center;
+  position: relative;
   width: 100%;
-  padding: 1px;
   background-color: rgba(105, 12, 41, 0.92);
   margin: 0;
-  color: #FFCC80;
-  letter-spacing: .2rem;
+  padding: 5px;
+}
+
+.logobottom {
+  float: left;
+  width: 4%;
+  margin: 0;
 }
