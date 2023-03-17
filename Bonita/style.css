@@ -1,8 +1,8 @@
 body {
   font-family: Merriweather, serif;
   text-align: center;
-  margin: 0;
   background-color: #FFF2F2;
+  font-size: 75%;
 }
 
 hr {
@@ -14,7 +14,7 @@ hr {
 }
 
 h1 {
-  color:  #FFDB89;
+  color: #FFDB89;
   font-size: 4rem;
   font-family: Sacramento, cursive;
   font-weight: normal;
@@ -37,26 +37,28 @@ h3 {
 
 p {
   color: #40514E;
-  font-size: 1.3rem;
+  letter-spacing: .025rem;
+}
+
+.copyright {
+  color: #FFDB89;
+  font-size: 0.9rem;
   letter-spacing: .025rem;
 }
 
 header {
+  z-index: 1;
   position: fixed;
   width: 100%;
-  padding: 5px;
   background-color: rgba(105, 12, 41, 0.92);
-  margin: 0;
 }
 
-.logoheader {
+/* .logoheader {
   float: left;
   width: 4%;
-}
-
+} */
 .welcome {
   position: relative;
-  margin: 0;
   /* background-image: url(imagesbonita/Most-Beautiful-House-in-the-World.jpg);
   background-color: transparent;
   background-color: rgba(251, 233, 231, 0.56);*/
@@ -67,10 +69,10 @@ header {
   height: 18.75rem;
   width: 43.75rem;
   margin: auto;
-  border: 5px solid rgba(105, 12, 41, 0.92);
+  border: 2px solid rgba(105, 12, 41, 0.92);
   border-radius: 15px;
-  box-shadow: 10px 10px 5px grey;
-  background-color: rgba(251, 233, 231, 0.56);
+  box-shadow: 5px 5px 5px grey;
+  background-color: #FFEBEE;
 }
 
 .services {
@@ -79,26 +81,75 @@ header {
   padding: 20px;
 }
 
-.row {
-padding: inherit;
+.services {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
-.col-sm-4 {
-  border-radius: 2px;
-  margin: 8px;
+.conveyancer {
+  grid-area: 1 / 1 / 2 / 2;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.wills {
+  grid-area: 1 / 2 / 2 / 3;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.contracts {
+  grid-area: 2 / 1 / 3 / 2;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.marrige {
+  grid-area: 2 / 2 / 3 / 3;
+  border: 1px solid;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .meettheteam {
-  position: relative;
-  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
-.col {
-  border: 2px solid rgba(105, 12, 41, 0.92);
-  border-radius: 2px;
-  margin: 8px;
+.bonita {
+  grid-area: 1 / 1 / 2 / 2;
+  border: 1px solid rgba(105, 12, 41, 0.92);
+  border-radius: 5px;
   outline-style: double;
-  background-color: rgba(251, 233, 231, 0.56);
+  background-color: #FFEBEE;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.annette {
+  grid-area: 1 / 2 / 2 / 3;
+  border: 1px solid rgba(105, 12, 41, 0.92);
+  border-radius: 5px;
+  outline-style: double;
+  background-color: #FFEBEE;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.marie {
+  grid-area: 1 / 3 / 2 / 4;
+  border: 1px solid rgba(105, 12, 41, 0.92);
+  border-radius: 5px;
+  outline-style: double;
+  background-color: #FFEBEE;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .detailp {
@@ -109,20 +160,42 @@ padding: inherit;
   position: relative;
 }
 
+.VS {
+  position: relative;
+  height: 18.75rem;
+  width: 43.75rem;
+  margin: auto;
+  border: 2px solid rgba(105, 12, 41, 0.92);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px grey;
+  background-color: #FFEBEE;
+}
+
+.VG {
+  position: relative;
+  height: 18.75rem;
+  width: 43.75rem;
+  margin: auto;
+  border: 2px solid rgba(105, 12, 41, 0.92);
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px grey;
+  background-color: #FFEBEE;
+}
+
 .contactus {
   position: relative;
 }
 
 footer {
-  position: relative;
+  position: inherit;
   width: 100%;
   background-color: rgba(105, 12, 41, 0.92);
   margin: 0;
-  padding: 5px;
+  padding: 0;
 }
 
-.logobottom {
+/* .logobottom {
   float: left;
   width: 4%;
   margin: 0;
-}
+} */
