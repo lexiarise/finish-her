@@ -13,6 +13,14 @@ hr {
   border-width: 5px;
 }
 
+.contacthr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 2%;
+  border-color: #40514E;
+  border-width: 5px;
+}
+
 h1 {
   color: #FFDB89;
   font-size: 4rem;
@@ -40,6 +48,21 @@ p {
   letter-spacing: .025rem;
 }
 
+.aup {
+  position: relative;
+  top: 25px;
+}
+
+.vsp {
+  position: relative;
+  top: 20px;
+}
+
+.vgp {
+  position: relative;
+  top: 28px;
+}
+
 .copyright {
   color: #FFDB89;
   font-size: 0.9rem;
@@ -53,10 +76,6 @@ header {
   background-color: rgba(105, 12, 41, 0.92);
 }
 
-/* .logoheader {
-  float: left;
-  width: 4%;
-} */
 .welcome {
   position: relative;
   /* background-image: url(imagesbonita/Most-Beautiful-House-in-the-World.jpg);
@@ -66,8 +85,8 @@ header {
 
 .aboutus {
   position: relative;
-  height: 18.75rem;
-  width: 43.75rem;
+  height: 8.75rem;
+  width: 40.75rem;
   margin: auto;
   border: 2px solid rgba(105, 12, 41, 0.92);
   border-radius: 15px;
@@ -94,6 +113,7 @@ header {
   border: 1px solid;
   border-radius: 5px;
   box-shadow: 5px 5px 5px grey;
+  background-color: #FFEBEE;
 }
 
 .wills {
@@ -101,6 +121,7 @@ header {
   border: 1px solid;
   border-radius: 5px;
   box-shadow: 5px 5px 5px grey;
+  background-color: #FFEBEE;
 }
 
 .contracts {
@@ -108,6 +129,7 @@ header {
   border: 1px solid;
   border-radius: 5px;
   box-shadow: 5px 5px 5px grey;
+  background-color: #FFEBEE;
 }
 
 .marrige {
@@ -115,6 +137,7 @@ header {
   border: 1px solid;
   border-radius: 5px;
   box-shadow: 5px 5px 5px grey;
+  background-color: #FFEBEE;
 }
 
 .meettheteam {
@@ -162,9 +185,10 @@ header {
 
 .VS {
   position: relative;
-  height: 18.75rem;
-  width: 43.75rem;
-  margin: auto;
+  left: 160px;
+  margin: 10px;
+  height: 10.75rem;
+  width: 38.75rem;
   border: 2px solid rgba(105, 12, 41, 0.92);
   border-radius: 15px;
   box-shadow: 5px 5px 5px grey;
@@ -173,9 +197,10 @@ header {
 
 .VG {
   position: relative;
-  height: 18.75rem;
-  width: 43.75rem;
-  margin: auto;
+  left: 700px;
+  margin: 10px;
+  height: 10.75rem;
+  width: 38.75rem;
   border: 2px solid rgba(105, 12, 41, 0.92);
   border-radius: 15px;
   box-shadow: 5px 5px 5px grey;
@@ -193,9 +218,3 @@ footer {
   margin: 0;
   padding: 0;
 }
-
-/* .logobottom {
-  float: left;
-  width: 4%;
-  margin: 0;
-} */
