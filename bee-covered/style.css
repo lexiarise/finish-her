@@ -38,13 +38,31 @@ h2 {
 }
 
 h3 {
-  color: #40514E;
+  color: #333533;
   font-family: 'Open Sans', sans-serif;
 }
 
 p {
   color: #d6d6d6;
   letter-spacing: .025rem;
+}
+
+.menu {
+  display: flex;
+  position: relative;
+  left: 800px;
+  margin: 10px;
+  height: 10.75rem;
+  width: 38.75rem;
+}
+
+ul {
+  height: 0;
+  overflow: hidden;
+}
+
+.menu:hover ul {
+  height: inherit;
 }
 
 .aup {
@@ -63,7 +81,7 @@ p {
 }
 
 .copyright {
-  color: #d6d6d6;
+  color: #333533;
   font-size: 0.9rem;
   letter-spacing: .025rem;
 }
@@ -106,6 +124,8 @@ header {
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px #333533;
   background-color: #333533;
+  margin: 0;
+  padding: 15px;
 }
 
 .repairs {
@@ -114,6 +134,8 @@ header {
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px #333533;
   background-color: #333533;
+  margin: 0;
+  padding: 15px;
 }
 
 .bags {
@@ -122,6 +144,8 @@ header {
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px #333533;
   background-color: #333533;
+  margin: 0;
+  padding: 15px;
 }
 
 .custom {
@@ -130,6 +154,8 @@ header {
   border-radius: 15px;
   box-shadow: 5px 5px 5px 5px #333533;
   background-color: #333533;
+  margin: 0;
+  padding: 15px;
 }
 
 .meettheteam {
@@ -140,7 +166,7 @@ header {
   grid-row-gap: 20px;
 }
 
-.bonita {
+.person1 {
   grid-area: 1 / 1 / 2 / 2;
   border: 1px solid #ffd100;
   border-radius: 5px;
@@ -148,7 +174,7 @@ header {
   box-shadow: 10px 10px 5px #202020;
 }
 
-.annette {
+.person2 {
   grid-area: 1 / 2 / 2 / 3;
   border: 1px solid #ffd100;
   border-radius: 5px;
@@ -156,7 +182,7 @@ header {
   box-shadow: 10px 10px 5px #202020;
 }
 
-.marie {
+.person3 {
   grid-area: 1 / 3 / 2 / 4;
   border: 1px solid #ffd100;
   border-radius: 5px;
